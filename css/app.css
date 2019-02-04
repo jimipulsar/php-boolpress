@@ -25,13 +25,13 @@
 .titolo-2 {
   float: left;
   display: block;
-  width: 44%;
+  width: 49%;
 }
 
 .giorno-pubblicazione {
   float:left;
   display: block;
-  width: 34%;
+  width: 44%;
 }
 h1 {
   text-align: left;
@@ -48,12 +48,11 @@ img {
   border-radius: 18px;
   margin-right: 24px;
   float: left;
-  box-shadow: 5px 4px 12px #898989;
 }
 
 .contenuto {
   float:left;
-  width: 44%;
+  width: 50%;
 }
 
 .tag {
@@ -61,7 +60,7 @@ img {
   float: left;
   margin-top: 17px;
   margin-bottom: 17px;
-  width: 29%;
+  width: 48%;
   margin-left: 16px;
 }
 
