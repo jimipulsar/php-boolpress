@@ -28,6 +28,16 @@
   width: 49%;
 }
 
+.titolo-2 h1 {
+  font-size: 27px;
+  width: 100%;
+  background: transparent;
+  color: #000;
+  text-shadow: none;
+  padding: 0;
+
+}
+
 .giorno-pubblicazione {
   float:left;
   display: block;
@@ -36,6 +46,14 @@
 h1 {
   text-align: left;
   margin-top:10px;
+  background: #8e1212;
+  padding: 20px;
+  width: 70%;
+  float: left;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 10px;
+  text-shadow: 0px 0px 6px #000;
 }
 
 .giorno-pubblicazione p {
