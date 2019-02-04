@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="it" dir="ltr">
   <head>
@@ -16,7 +18,8 @@
               </a>
             </div>
             <div class="giorno-pubblicazione">
-              <p><?php echo date($post['published_at']); ?></p>
+              <?php $date = DateTime::createFromFormat('d/m/Y H:i:s', $post['published_at']); ?>
+              <p>Pubblicato il <?php echo $date->format('d F'); ?> alle <?php echo date('H'); ?></p>
             </div>
             <div class="estratto">
               <?php echo substr($post['content'],0,150); ?>

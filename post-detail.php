@@ -22,7 +22,8 @@
                 <h1><?php echo $post['title']; ?></h1>
               </div>
               <div class="giorno-pubblicazione">
-                <p><?php echo date($post['published_at']); ?></p>
+                <p><?php $date = DateTime::createFromFormat('d/m/Y H:i:s', $post['published_at']); ?>
+                <p>Pubblicato il <?php echo $date->format('d F'); ?> alle <?php echo date('H'); ?></p></p>
               </div>
               <div class="contenuto">
                 <p class="testo-contenuto"><?php echo $post['content']; ?></p>
