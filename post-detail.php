@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/app.css">
     <meta charset="utf-8">
-    <title>BlogPress <?php echo $slug; ?></title>
+    <title>BoolPress <?php echo $slug; ?></title>
   </head>
   <body>
     <?php
