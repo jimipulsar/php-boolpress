@@ -71,6 +71,7 @@ img {
   border-radius: 18px;
   margin-right: 24px;
   float: left;
+  box-shadow: 4px 5px 12px #ababab;
 }
 
 .contenuto {
